@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(75, 75, 77);
+    font-family: fantasy;
+    font-weight: 300;
+
+    max-width: 100%;
+    margin: 0 auto; /*forma abreviada*/
+  /*margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+*/
+}
+nav {
+    width: 100%;
+    height: 160px;
+    background-color:rgba(143, 168, 248, 0.616);
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+  padding: 18px 20px; 
+}
+
+nav ul li:hover {
+    background-color:rgba(184, 200, 252, 0.616);
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.685);
+
+}
+nav ul li div {
+    justify-content: left;
+
+}
+a:visited {
+    color: black;
+}
+a:active {
+ color:rgba(172, 255, 47, 0.685);
+}
+
+.img-logo {
+    width: 1px;
+    padding-top: 50px;
+    padding-right: 5%;
+    float: left;
+}
+nav ul {
+    padding-top: 90px;
+    float: right;
+    
+}
+.banner {
+    max-width: 100%;
+}
+.featured {
+    background-color: rgba(143, 168, 248, 0.616);
+}
+.fp-video {
+    padding: 2em;
+    width: 55%;
+    margin: auto;
+}
+.ft-art {
+    padding:2em;
+    width: 40%;
+    vertical-align: top;
+}
+article {
+    padding:40px;
+    background-color: rgba(183, 252, 143, 0.616);
+    margin: 20px 0;
+    text-align: center;
+}
+article h1 {
+    margin: 0;
+    border-bottom: solid thin black;
+    text-align: center;
+}
+.fp-video , .ft-art {
+    display: inline-block;
+}
+.button-container {
+    background-color: rgba(172, 255, 47, 0.685);
+    text-align: center;
+    margin: 0 auto;
+}
+.button-container a {
+    text-decoration: none;
+    color: rgba(8, 8, 8, 0.788);
+}
+.button {
+    padding: 15px;
+}
+.button-container:hover {
+    background-color: rgb(53, 50, 204);
+}
+.art-image img {
+    max-width: 100%;
+    margin: 0;
+    
+}
+.art-cont {
+    width: 740px;
+    vertical-align: top;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    border-bottom: solid thin black;
+}
+footer {
+    background-color:rgba(143, 168, 248, 0.616);
+    color: ghostwhite;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+footer a {
+    color: ghostwhite;
+    text-decoration: none;
+    align-content: center;
+}
+.f-content {
+    width: 40%;
+    padding-top: 10px;
+    color: seashell;
+
+}
+footer form {
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: rgba(138, 144, 223, 0.692);
+}
